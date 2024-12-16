@@ -10,11 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-go@v4
-        with:
-          go-version: '1.23.x'
       - uses: actions/checkout@v4
 
       - uses: ko-build/setup-ko@v0.6
-      - run: ko build
+      - run: ko build ./cmd/yum2npm
         env:
           KO_DOCKER_REPO: ghcr.io/kong/yum2npm
