@@ -1,0 +1,2 @@
+defaultEnv:
+- GIN_MODE=release
