@@ -6,4 +6,243 @@ http:
 
 refreshInterval: "1h"
 
-repos: []
+repos:
+  # gateway-28
+  - name: gateway-28-7-noarch
+    url: https://packages.konghq.com/public/gateway-28/rpm/el/7/noarch
+  - name: gateway-28-7-x86_64
+    url: https://packages.konghq.com/public/gateway-28/rpm/el/7/x86_64
+  - name: gateway-28-7-aarch64
+    url: https://packages.konghq.com/public/gateway-28/rpm/el/7/aarch64
+  - name: gateway-28-8-noarch
+    url: https://packages.konghq.com/public/gateway-28/rpm/el/8/noarch
+  - name: gateway-28-8-x86_64
+    url: https://packages.konghq.com/public/gateway-28/rpm/el/8/x86_64
+  - name: gateway-28-8-aarch64
+    url: https://packages.konghq.com/public/gateway-28/rpm/el/8/aarch64
+  - name: gateway-28-9-noarch
+    url: https://packages.konghq.com/public/gateway-28/rpm/el/9/noarch
+  - name: gateway-28-9-x86_64
+    url: https://packages.konghq.com/public/gateway-28/rpm/el/9/x86_64
+  - name: gateway-28-9-aarch64
+    url: https://packages.konghq.com/public/gateway-28/rpm/el/9/aarch64
+
+  # gateway-30
+  - name: gateway-30-7-noarch
+    url: https://packages.konghq.com/public/gateway-30/rpm/el/7/noarch
+  - name: gateway-30-7-x86_64
+    url: https://packages.konghq.com/public/gateway-30/rpm/el/7/x86_64
+  - name: gateway-30-7-aarch64
+    url: https://packages.konghq.com/public/gateway-30/rpm/el/7/aarch64
+  - name: gateway-30-8-noarch
+    url: https://packages.konghq.com/public/gateway-30/rpm/el/8/noarch
+  - name: gateway-30-8-x86_64
+    url: https://packages.konghq.com/public/gateway-30/rpm/el/8/x86_64
+  - name: gateway-30-8-aarch64
+    url: https://packages.konghq.com/public/gateway-30/rpm/el/8/aarch64
+  - name: gateway-30-9-noarch
+    url: https://packages.konghq.com/public/gateway-30/rpm/el/9/noarch
+  - name: gateway-30-9-x86_64
+    url: https://packages.konghq.com/public/gateway-30/rpm/el/9/x86_64
+  - name: gateway-30-9-aarch64
+    url: https://packages.konghq.com/public/gateway-30/rpm/el/9/aarch64
+
+  # gateway-31
+  - name: gateway-31-7-noarch
+    url: https://packages.konghq.com/public/gateway-31/rpm/el/7/noarch
+  - name: gateway-31-7-x86_64
+    url: https://packages.konghq.com/public/gateway-31/rpm/el/7/x86_64
+  - name: gateway-31-7-aarch64
+    url: https://packages.konghq.com/public/gateway-31/rpm/el/7/aarch64
+  - name: gateway-31-8-noarch
+    url: https://packages.konghq.com/public/gateway-31/rpm/el/8/noarch
+  - name: gateway-31-8-x86_64
+    url: https://packages.konghq.com/public/gateway-31/rpm/el/8/x86_64
+  - name: gateway-31-8-aarch64
+    url: https://packages.konghq.com/public/gateway-31/rpm/el/8/aarch64
+  - name: gateway-31-9-noarch
+    url: https://packages.konghq.com/public/gateway-31/rpm/el/9/noarch
+  - name: gateway-31-9-x86_64
+    url: https://packages.konghq.com/public/gateway-31/rpm/el/9/x86_64
+  - name: gateway-31-9-aarch64
+    url: https://packages.konghq.com/public/gateway-31/rpm/el/9/aarch64
+
+  # gateway-32
+  - name: gateway-32-7-noarch
+    url: https://packages.konghq.com/public/gateway-32/rpm/el/7/noarch
+  - name: gateway-32-7-x86_64
+    url: https://packages.konghq.com/public/gateway-32/rpm/el/7/x86_64
+  - name: gateway-32-7-aarch64
+    url: https://packages.konghq.com/public/gateway-32/rpm/el/7/aarch64
+  - name: gateway-32-8-noarch
+    url: https://packages.konghq.com/public/gateway-32/rpm/el/8/noarch
+  - name: gateway-32-8-x86_64
+    url: https://packages.konghq.com/public/gateway-32/rpm/el/8/x86_64
+  - name: gateway-32-8-aarch64
+    url: https://packages.konghq.com/public/gateway-32/rpm/el/8/aarch64
+  - name: gateway-32-9-noarch
+    url: https://packages.konghq.com/public/gateway-32/rpm/el/9/noarch
+  - name: gateway-32-9-x86_64
+    url: https://packages.konghq.com/public/gateway-32/rpm/el/9/x86_64
+  - name: gateway-32-9-aarch64
+    url: https://packages.konghq.com/public/gateway-32/rpm/el/9/aarch64
+
+  # gateway-33
+  - name: gateway-33-7-noarch
+    url: https://packages.konghq.com/public/gateway-33/rpm/el/7/noarch
+  - name: gateway-33-7-x86_64
+    url: https://packages.konghq.com/public/gateway-33/rpm/el/7/x86_64
+  - name: gateway-33-7-aarch64
+    url: https://packages.konghq.com/public/gateway-33/rpm/el/7/aarch64
+  - name: gateway-33-8-noarch
+    url: https://packages.konghq.com/public/gateway-33/rpm/el/8/noarch
+  - name: gateway-33-8-x86_64
+    url: https://packages.konghq.com/public/gateway-33/rpm/el/8/x86_64
+  - name: gateway-33-8-aarch64
+    url: https://packages.konghq.com/public/gateway-33/rpm/el/8/aarch64
+  - name: gateway-33-9-noarch
+    url: https://packages.konghq.com/public/gateway-33/rpm/el/9/noarch
+  - name: gateway-33-9-x86_64
+    url: https://packages.konghq.com/public/gateway-33/rpm/el/9/x86_64
+  - name: gateway-33-9-aarch64
+    url: https://packages.konghq.com/public/gateway-33/rpm/el/9/aarch64
+
+  # gateway-34
+  - name: gateway-34-7-noarch
+    url: https://packages.konghq.com/public/gateway-34/rpm/el/7/noarch
+  - name: gateway-34-7-x86_64
+    url: https://packages.konghq.com/public/gateway-34/rpm/el/7/x86_64
+  - name: gateway-34-7-aarch64
+    url: https://packages.konghq.com/public/gateway-34/rpm/el/7/aarch64
+  - name: gateway-34-8-noarch
+    url: https://packages.konghq.com/public/gateway-34/rpm/el/8/noarch
+  - name: gateway-34-8-x86_64
+    url: https://packages.konghq.com/public/gateway-34/rpm/el/8/x86_64
+  - name: gateway-34-8-aarch64
+    url: https://packages.konghq.com/public/gateway-34/rpm/el/8/aarch64
+  - name: gateway-34-9-noarch
+    url: https://packages.konghq.com/public/gateway-34/rpm/el/9/noarch
+  - name: gateway-34-9-x86_64
+    url: https://packages.konghq.com/public/gateway-34/rpm/el/9/x86_64
+  - name: gateway-34-9-aarch64
+    url: https://packages.konghq.com/public/gateway-34/rpm/el/9/aarch64
+
+  # gateway-35
+  - name: gateway-35-7-noarch
+    url: https://packages.konghq.com/public/gateway-35/rpm/el/7/noarch
+  - name: gateway-35-7-x86_64
+    url: https://packages.konghq.com/public/gateway-35/rpm/el/7/x86_64
+  - name: gateway-35-7-aarch64
+    url: https://packages.konghq.com/public/gateway-35/rpm/el/7/aarch64
+  - name: gateway-35-8-noarch
+    url: https://packages.konghq.com/public/gateway-35/rpm/el/8/noarch
+  - name: gateway-35-8-x86_64
+    url: https://packages.konghq.com/public/gateway-35/rpm/el/8/x86_64
+  - name: gateway-35-8-aarch64
+    url: https://packages.konghq.com/public/gateway-35/rpm/el/8/aarch64
+  - name: gateway-35-9-noarch
+    url: https://packages.konghq.com/public/gateway-35/rpm/el/9/noarch
+  - name: gateway-35-9-x86_64
+    url: https://packages.konghq.com/public/gateway-35/rpm/el/9/x86_64
+  - name: gateway-35-9-aarch64
+    url: https://packages.konghq.com/public/gateway-35/rpm/el/9/aarch64
+
+  # gateway-36
+  - name: gateway-36-7-noarch
+    url: https://packages.konghq.com/public/gateway-36/rpm/el/7/noarch
+  - name: gateway-36-7-x86_64
+    url: https://packages.konghq.com/public/gateway-36/rpm/el/7/x86_64
+  - name: gateway-36-7-aarch64
+    url: https://packages.konghq.com/public/gateway-36/rpm/el/7/aarch64
+  - name: gateway-36-8-noarch
+    url: https://packages.konghq.com/public/gateway-36/rpm/el/8/noarch
+  - name: gateway-36-8-x86_64
+    url: https://packages.konghq.com/public/gateway-36/rpm/el/8/x86_64
+  - name: gateway-36-8-aarch64
+    url: https://packages.konghq.com/public/gateway-36/rpm/el/8/aarch64
+  - name: gateway-36-9-noarch
+    url: https://packages.konghq.com/public/gateway-36/rpm/el/9/noarch
+  - name: gateway-36-9-x86_64
+    url: https://packages.konghq.com/public/gateway-36/rpm/el/9/x86_64
+  - name: gateway-36-9-aarch64
+    url: https://packages.konghq.com/public/gateway-36/rpm/el/9/aarch64
+
+  # gateway-37
+  - name: gateway-37-7-noarch
+    url: https://packages.konghq.com/public/gateway-37/rpm/el/7/noarch
+  - name: gateway-37-7-x86_64
+    url: https://packages.konghq.com/public/gateway-37/rpm/el/7/x86_64
+  - name: gateway-37-7-aarch64
+    url: https://packages.konghq.com/public/gateway-37/rpm/el/7/aarch64
+  - name: gateway-37-8-noarch
+    url: https://packages.konghq.com/public/gateway-37/rpm/el/8/noarch
+  - name: gateway-37-8-x86_64
+    url: https://packages.konghq.com/public/gateway-37/rpm/el/8/x86_64
+  - name: gateway-37-8-aarch64
+    url: https://packages.konghq.com/public/gateway-37/rpm/el/8/aarch64
+  - name: gateway-37-9-noarch
+    url: https://packages.konghq.com/public/gateway-37/rpm/el/9/noarch
+  - name: gateway-37-9-x86_64
+    url: https://packages.konghq.com/public/gateway-37/rpm/el/9/x86_64
+  - name: gateway-37-9-aarch64
+    url: https://packages.konghq.com/public/gateway-37/rpm/el/9/aarch64
+
+  # gateway-38
+  - name: gateway-38-7-noarch
+    url: https://packages.konghq.com/public/gateway-38/rpm/el/7/noarch
+  - name: gateway-38-7-x86_64
+    url: https://packages.konghq.com/public/gateway-38/rpm/el/7/x86_64
+  - name: gateway-38-7-aarch64
+    url: https://packages.konghq.com/public/gateway-38/rpm/el/7/aarch64
+  - name: gateway-38-8-noarch
+    url: https://packages.konghq.com/public/gateway-38/rpm/el/8/noarch
+  - name: gateway-38-8-x86_64
+    url: https://packages.konghq.com/public/gateway-38/rpm/el/8/x86_64
+  - name: gateway-38-8-aarch64
+    url: https://packages.konghq.com/public/gateway-38/rpm/el/8/aarch64
+  - name: gateway-38-9-noarch
+    url: https://packages.konghq.com/public/gateway-38/rpm/el/9/noarch
+  - name: gateway-38-9-x86_64
+    url: https://packages.konghq.com/public/gateway-38/rpm/el/9/x86_64
+  - name: gateway-38-9-aarch64
+    url: https://packages.konghq.com/public/gateway-38/rpm/el/9/aarch64
+
+  # gateway-39
+  - name: gateway-39-7-noarch
+    url: https://packages.konghq.com/public/gateway-39/rpm/el/7/noarch
+  - name: gateway-39-7-x86_64
+    url: https://packages.konghq.com/public/gateway-39/rpm/el/7/x86_64
+  - name: gateway-39-7-aarch64
+    url: https://packages.konghq.com/public/gateway-39/rpm/el/7/aarch64
+  - name: gateway-39-8-noarch
+    url: https://packages.konghq.com/public/gateway-39/rpm/el/8/noarch
+  - name: gateway-39-8-x86_64
+    url: https://packages.konghq.com/public/gateway-39/rpm/el/8/x86_64
+  - name: gateway-39-8-aarch64
+    url: https://packages.konghq.com/public/gateway-39/rpm/el/8/aarch64
+  - name: gateway-39-9-noarch
+    url: https://packages.konghq.com/public/gateway-39/rpm/el/9/noarch
+  - name: gateway-39-9-x86_64
+    url: https://packages.konghq.com/public/gateway-39/rpm/el/9/x86_64
+  - name: gateway-39-9-aarch64
+    url: https://packages.konghq.com/public/gateway-39/rpm/el/9/aarch64
+
+  # gateway-310
+  - name: gateway-310-7-noarch
+    url: https://packages.konghq.com/public/gateway-310/rpm/el/7/noarch
+  - name: gateway-310-7-x86_64
+    url: https://packages.konghq.com/public/gateway-310/rpm/el/7/x86_64
+  - name: gateway-310-7-aarch64
+    url: https://packages.konghq.com/public/gateway-310/rpm/el/7/aarch64
+  - name: gateway-310-8-noarch
+    url: https://packages.konghq.com/public/gateway-310/rpm/el/8/noarch
+  - name: gateway-310-8-x86_64
+    url: https://packages.konghq.com/public/gateway-310/rpm/el/8/x86_64
+  - name: gateway-310-8-aarch64
+    url: https://packages.konghq.com/public/gateway-310/rpm/el/8/aarch64
+  - name: gateway-310-9-noarch
+    url: https://packages.konghq.com/public/gateway-310/rpm/el/9/noarch
+  - name: gateway-310-9-x86_64
+    url: https://packages.konghq.com/public/gateway-310/rpm/el/9/x86_64
+  - name: gateway-310-9-aarch64
+    url: https://packages.konghq.com/public/gateway-310/rpm/el/9/aarch64
