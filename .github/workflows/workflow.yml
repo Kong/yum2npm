@@ -16,3 +16,5 @@ jobs:
 
       - uses: ko-build/setup-ko@v0.6
       - run: ko build
+        env:
+          KO_DOCKER_REPO: ghcr.io/kong/yum2npm
