@@ -15,7 +15,6 @@ jobs:
       - uses: ko-build/setup-ko@v0.6
       - env:
           KO_DOCKER_REPO: ghcr.io/kong/yum2npm
-          KO_DATA_PATH: /kodata
         run: |
           ko build \
             ${{ runner.debug == '1' && '--verbose' || '' }} \
