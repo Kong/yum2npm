@@ -16,3 +16,4 @@ jobs:
       - run: ko build --verbose ./cmd/yum2npm
         env:
           KO_DOCKER_REPO: ghcr.io/kong/yum2npm
+          KO_DATA_PATH: kodata
